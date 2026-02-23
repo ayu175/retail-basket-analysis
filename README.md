@@ -6,12 +6,12 @@ This project applies market basket analysis to transactional retail data from a 
 
 ## Key Findings
 
-- The strongest rules produced a **lift of 88.20** — meaning customers who purchased specific antecedent items were **88x more likely** to also purchase the consequent items compared to random chance
+- The strongest rules produced a **lift of 88.20** meaning customers who purchased specific antecedent items were **88x more likely** to also purchase the consequent items compared to random chance
 - Top rules achieved **100% confidence**, indicating that every time the antecedent items appeared in a transaction, the consequent items were purchased as well
-- The highest-lift rules centered on **Bakelike Alarm Clock variants** (Red, Green, Ivory, Pink) co-purchased with **Plasters in Tin** (Spaceboy, Circus Parade) and **Charlotte Bag Dolly Girl Design** — suggesting thematic, gift-bundle, or aesthetic-driven purchasing behaviour
+- The highest-lift rules centered on **Bakelike Alarm Clock variants** (Red, Green, Ivory, Pink) co-purchased with **Plasters in Tin** (Spaceboy, Circus Parade) and **Charlotte Bag Dolly Girl Design** suggesting thematic, gift-bundle, or aesthetic-driven purchasing behaviour
 - The Apriori algorithm was run with a **minimum support threshold of 1%** (items appearing together in at least 1% of all transactions) and a **minimum lift threshold of 1.3** to filter for meaningful associations
 
-> 💡 **Interpretation:** The high lift scores reflect tight product clusters that customers consistently buy as a set — likely due to thematic similarity or gift-bundling intent. These groupings are strong candidates for pre-built promotional bundles, co-located shelf placement, or "customers also bought" recommendation triggers.
+> **Interpretation:** The high lift scores reflect tight product clusters that customers consistently buy as a set — likely due to thematic similarity or gift-bundling intent. These groupings are strong candidates for pre-built promotional bundles, co-located shelf placement, or "customers also bought" recommendation triggers.
 
 ### Example Top Rule
 
