@@ -1,6 +1,6 @@
 # Retail Basket Analysis
 
-What products are most frequently purchased together — and how can that insight improve product placement and promotional bundling?
+What products are most frequently purchased together and how can that insight improve product placement and promotional bundling?
 
 This project applies market basket analysis to transactional retail data from a Megastore to uncover purchasing patterns across customer orders. The Apriori algorithm is used to identify frequent itemsets and generate association rules, ranked by support, confidence, and lift, to surface actionable product pairing strategies.
 
